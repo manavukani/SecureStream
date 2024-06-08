@@ -1,0 +1,12 @@
+.video-player-wrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  height: 75vh;
+  width: 60vw;
+  border-radius: 10px;
+}
