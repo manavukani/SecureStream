@@ -6,7 +6,7 @@ const App: React.FC = () => {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>Video Streaming App</h1>
+        <h1>SecureStream - Video Streaming App</h1>
       </header>
       <main className="video-container">
         <VideoPlayer />
