@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/video", (req, res) => {
-  const filePath = join(__dirname, "public", "video.mp4");
+  const filePath = join(__dirname, "public", "video.mp4"); // change file name here
   const stat = statSync(filePath);
   const fileSize = stat.size;
   
