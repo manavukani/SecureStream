@@ -31,20 +31,22 @@ Follow these steps to run the project locally:
    npm install
    ```
 
-4. Start the Express server:
+4. Add video file in `server/public` & update the URL as per file name in `server/app.js`
+
+5. Start the Express server:
 
    ```bash
    npm start
    ```
 
-5. Start the React client:
+6. Start the React client:
 
    ```bash
    cd ../client
    npm start
    ```
 
-6. Open your browser and visit `http://localhost:5173/` to view the SecureStream app.
+7. Open your browser and visit `http://localhost:5173/` to view the SecureStream app.
 
 ## Technologies Used
 
@@ -52,6 +54,15 @@ Follow these steps to run the project locally:
 - Express.js
 - Node.js
 - `react-player` for video playback in the frontend
+
+## Screenshots
+
+#### UI
+![image](https://github.com/manavukani/SecureStream/assets/84531789/9c4bbbc6-d8ee-4057-b25b-8490c49e3c55)
+
+#### Trying to download, but the file format is .htm
+![image](https://github.com/manavukani/SecureStream/assets/84531789/28a0f69b-4d15-4282-a7d1-766cb29e9a72)
+
 
 ## Contributing
 
